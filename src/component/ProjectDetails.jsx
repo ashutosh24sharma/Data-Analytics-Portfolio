@@ -7,7 +7,7 @@ const allProjects = {
   "sql-python-powerbi-excel": [
    {
   id: "powerbi-sql-coffeeshop-sales",
-  title: "Advanced Coffee Shop Sales Analytics Dashboard (Power BI + SQL)",
+  title: "Advanced Coffee Shop Sales Analytics Dashboard (Power BI + SQL + Excel)",
   image: "/images/Coffee.png",
   about:
     "Developed a highly advanced and fully interactive sales analytics dashboard using a combination of Power BI and SQL. This end-to-end project involved extensive data cleaning, transformation, and KPI engineering using SQL scripts, followed by sophisticated report development in Power BI using over 60+ DAX measures. I automated data preparation with Power Query, built a robust star-schema data model, and created visually rich, storytelling-based insights using advanced charts, custom tooltips, conditional formatting, calendar heat maps, and dynamic slicers. The solution helps stakeholders analyze sales performance across months, store locations, products, weekdays/weekends, hours, and much more, enabling deep business insights and data-driven decisions.",
@@ -33,7 +33,7 @@ const allProjects = {
 },
 {
   id: "india-loksabha-2024-sql-powerbi",
-  title: "India Lok Sabha Election 2024 Analytics (SQL + Power BI)",
+  title: "India Lok Sabha Election 2024 Analytics (SQL + Power BI + Python)",
   image: "/images/Election.png",
   about:
     "Built a large-scale end-to-end analytics solution for the India Lok Sabha Election 2024 using SQL for data engineering and Power BI for interactive reporting. In SQL, I designed a snowflake schema with 6 related tables, performed extensive data cleaning and transformation, and created reusable views to calculate key election KPIs such as alliance-wise seat share, state-wise performance, and constituency-level results. In Power BI, I replicated the snowflake model, created more than 60 DAX measures and 20+ calculated columns, and designed a suite of high-level dashboards covering national overview, state demographics, political landscape by state, constituency analysis, and detailed grid views, along with a landing page for smooth navigation. These dashboards provide deep insights into NDA, I.N.D.I.A., and other parties’ performance across seats, states, alliances, and candidates, helping users explore results from macro (national) to micro (constituency) level in an intuitive, story-driven experience. :contentReference[oaicite:0]{index=0}",
