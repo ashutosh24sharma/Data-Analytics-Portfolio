@@ -4,19 +4,10 @@ import { IoMdClose } from "react-icons/io";
 const resumes = [
   {
     id: 1,
-    title: "Full-stack Developer Resume",
-    image: "/images/fullstack.png",
+    title: "Data Analyst Resume",
+    image: "/images/DataanalystResume.png",
   },
-  {
-    id: 2,
-    title: "Frontend Developer Resume",
-    image: "/images/frontend.png",
-  },
-  {
-    id: 3,
-    title: "React.js Developer Resume",
-    image: "/images/React.png",
-  },
+  
 ];
 
 const MultiResumeViewer = () => {
@@ -32,7 +23,7 @@ const MultiResumeViewer = () => {
 
   return (
     <div className=" py-12 px-4 text-white">
-      <h1 className="text-4xl font-bold text-center mb-12"> Resumes</h1>
+      <h1 className="text-4xl font-bold text-center text-green-500 mb-12"> Resume</h1>
 
       <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
         {resumes.map((resume) => (
